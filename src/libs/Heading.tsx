@@ -9,7 +9,7 @@ type Props = {
 };
 
 export const Heading: VFC<Props> = ({ children, tag }) => {
-  return <Wrapper>{children}</Wrapper>;
+  return <Wrapper as={tag}>{children}</Wrapper>;
 };
 
 const Wrapper = styled.h1`
