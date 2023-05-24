@@ -2,6 +2,7 @@ import { Text } from './libs/Text';
 import { Heading } from './libs/Heading';
 import { Button } from './libs/Button';
 import { Textarea } from './libs/Textarea';
+import { Input } from './libs/input';
 
 export const App = () => {
   return (
@@ -25,6 +26,7 @@ export const App = () => {
         type='error'
       />
       <Textarea width={200} maxLength={100} />
+      <Input type='text' />
     </>
   );
 };
