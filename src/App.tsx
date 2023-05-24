@@ -1,3 +1,5 @@
+import { Text } from './libs/text';
+
 export const App = () => {
-  return <h1>React APP</h1>;
+  return <Text text='Hello World!' />;
 };
