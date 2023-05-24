@@ -2,10 +2,10 @@ import { VFC } from 'react';
 import styled from 'styled-components';
 import { fontSize } from './constants';
 
-type Props = { text: string };
+type Props = { text: string; className?: string };
 
-export const Text: VFC<Props> = ({ text }) => {
-  return <Wrapper>{text}</Wrapper>;
+export const Text: VFC<Props> = ({ text, className = '' }) => {
+  return <Wrapper className={className}>{text}</Wrapper>;
 };
 
 const Wrapper = styled.p`
