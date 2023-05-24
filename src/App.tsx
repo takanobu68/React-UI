@@ -8,18 +8,18 @@ export const App = () => {
       <Text text='Hello World!' />
       <Heading tag={'h1'}>見出し</Heading>
       <Button
-        onClick={() => console.log('clicked')}
+        onClick={() => console.log('clicked!')}
         title='Button'
         type='primary'
         width={96}
       />
       <Button
-        onClick={() => console.log('clicked')}
+        onClick={() => console.warn('clicked!')}
         title='Button'
         type='secondary'
       />
       <Button
-        onClick={() => console.log('clicked')}
+        onClick={() => console.error('clicked!')}
         title='Button'
         type='error'
       />
