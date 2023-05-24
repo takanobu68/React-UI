@@ -1,4 +1,4 @@
-import { Text } from './libs/text';
+import { Text } from './libs/Text';
 
 export const App = () => {
   return <Text text='Hello World!' />;
